@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/introduceYourselfFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.evdesporapp.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_exerciseHomeFragment"
+            app:destination="@id/exerciseHomeFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_drawerHomeFragment2"
+            app:destination="@id/drawerHomeFragment2" />
+        <action
+            android:id="@+id/action_homeFragment_to_planHomeFragment"
+            app:destination="@id/planHomeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/introduceYourselfFragment"
+        android:name="com.evdesporapp.IntroduceYourselfFragment"
+        android:label="fragment_introduce_yourself"
+        tools:layout="@layout/fragment_introduce_yourself" >
+        <action
+            android:id="@+id/action_introduceYourselfFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/exerciseHomeFragment"
+        android:name="com.evdesporapp.exercises.ExerciseHomeFragment"
+        android:label="fragment_exercise_home"
+        tools:layout="@layout/fragment_exercise_home" >
+        <action
+            android:id="@+id/action_exerciseHomeFragment_to_exerciseListFragment"
+            app:destination="@id/exerciseListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/exerciseListFragment"
+        android:name="com.evdesporapp.exercises.ExerciseListFragment"
+        android:label="fragment_exercise_list"
+        tools:layout="@layout/fragment_exercise_list" >
+        <action
+            android:id="@+id/action_exerciseListFragment_to_exerciseListDetailFragment"
+            app:destination="@id/exerciseListDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/exerciseListDetailFragment"
+        android:name="com.evdesporapp.exercises.ExerciseListDetailFragment"
+        android:label="fragment_exercise_list_detail"
+        tools:layout="@layout/fragment_exercise_list_detail" />
+    <fragment
+        android:id="@+id/drawerHomeFragment2"
+        android:name="com.evdesporapp.navigationdrawer.DrawerHomeFragment"
+        android:label="fragment_drawer_home"
+        tools:layout="@layout/fragment_drawer_home" />
+    <fragment
+        android:id="@+id/planHomeFragment"
+        android:name="com.evdesporapp.plans.PlanHomeFragment"
+        android:label="fragment_plan_home"
+        tools:layout="@layout/fragment_plan_home" >
+        <action
+            android:id="@+id/action_planHomeFragment_to_listOfDaysPlanFragment"
+            app:destination="@id/listOfDaysPlanFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/listOfDaysPlanFragment"
+        android:name="com.evdesporapp.plans.ListOfDaysPlanFragment"
+        android:label="fragment_list_of_days_plan"
+        tools:layout="@layout/fragment_list_of_days_plan" >
+        <action
+            android:id="@+id/action_listOfDaysPlanFragment_to_daysDetailFragment"
+            app:destination="@id/daysDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/daysDetailFragment"
+        android:name="com.evdesporapp.plans.DaysDetailFragment"
+        android:label="fragment_days_detail"
+        tools:layout="@layout/fragment_days_detail" >
+        <action
+            android:id="@+id/action_daysDetailFragment_to_startExerciseFragment"
+            app:destination="@id/startExerciseFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/startExerciseFragment"
+        android:name="com.evdesporapp.plans.StartExerciseFragment"
+        android:label="fragment_start_exercise"
+        tools:layout="@layout/fragment_start_exercise" >
+        <action
+            android:id="@+id/action_startExerciseFragment_to_restFragment"
+            app:destination="@id/restFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/restFragment"
+        android:name="com.evdesporapp.plans.RestFragment"
+        android:label="fragment_rest"
+        tools:layout="@layout/fragment_rest" >
+        <action
+            android:id="@+id/action_restFragment_to_startExerciseFragment"
+            app:destination="@id/startExerciseFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/fitRecipeHomeFragment"
+        android:name="com.evdesporapp.fitrecipe.FitRecipeHomeFragment"
+        android:label="fragment_fit_recipe_home"
+        tools:layout="@layout/fragment_fit_recipe_home" >
+        <action
+            android:id="@+id/action_fitRecipeHomeFragment_to_fitRecipeDetailFragment"
+            app:destination="@id/fitRecipeDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/fitRecipeDetailFragment"
+        android:name="com.evdesporapp.fitrecipe.FitRecipeDetailFragment"
+        android:label="fragment_fit_recipe_detail"
+        tools:layout="@layout/fragment_fit_recipe_detail" />
+</navigation>
