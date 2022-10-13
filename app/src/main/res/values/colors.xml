@@ -7,22 +7,36 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="energos">#C4E538</color>
-    <color name="androidGreen">#A3CB38</color>
-    <color name="juneBud">#badc58</color>
-    <color name="green">#a1fb00</color>
-    <color name="green2">#c1fd00</color>
-    <color name="darkGreen">#4b5233</color>
-    <color name="hotStone">#aaa69d</color>
-    <color name="swanWhite">#f7f1e3</color>
-    <color name="crocodileTooth">#d1ccc0</color>
-    <color name="greyPorcelain">#84817a</color>
-    <color name="shadowedSteel">#4b4b4b</color>
-    <color name="balticSea">#3d3d3d</color>
-    <color name="blueNights">#353b48</color>
-    <color name="electromagnetic">#2f3640</color>
-    <color name="darkModeForGray">#161710</color>
-    <color name="darkModeForGreen">#85A227</color>
+
+<!--    palettes-->
+    <color name="very_dark_green"> #131907</color>
+    <color name="dark_green"> #5e7f21</color>
+    <color name="medium_dark_green"> #96ca35</color>
+    <color name="active_green">#bcfd42</color>
+    <color name="medium_light_green">#defea1</color>
+    <color name="light_green">#ebfec6</color>
+    <color name="very_light_green">#f2ffd9</color>
+
+    <color name="dark_gray">#1c1c1c</color>
+    <color name="dark_gray1">#131313</color>
+    <color name="dark_gray2">#090909</color>
+    <color name="dark_gray3">#1a1a1a</color>
+    <color name="gray1">#2b2b2b</color>
+    <color name="gray2">#2f2f2f</color>
+    <color name="gray3">#414141</color>
+    <color name="gray4">#3d3d3d</color>
+    <color name="gray5">#414141</color>
+    <color name="gray6">#6c6c6c</color>
+    <color name="gray7">#adadad</color>
+    <color name="active_gray">#d8d8d8</color>
+    <color name="light_gray">#c2c2c2</color>
+    <color name="light_gray1">#e0e0e0</color>
+    <color name="light_gray2">#e8e8e8</color>
+    <color name="light_gray3">#efefef</color>
+    <color name="light_gray4">#f7f7f7</color>
+
+
+
 
 
 
