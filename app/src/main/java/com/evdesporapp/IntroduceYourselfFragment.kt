@@ -4,16 +4,25 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.ArrayAdapter
 import androidx.fragment.app.Fragment
 import com.evdesporapp.databinding.FragmentIntroduceYourselfBinding
 
 class IntroduceYourselfFragment : Fragment() {
     private var _binding: FragmentIntroduceYourselfBinding? = null
     private val binding get() = _binding!!
+
+    override fun onResume() {
+        super.onResume()
+        val genders = resources.getStringArray(R.array.gender)
+        val arrayAdapter = ArrayAdapter(requireContext(), R.layout.dropdown_item, genders)
+        binding.autoCompleteTextView.setAdapter(arrayAdapter)
+    }
+
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
         _binding = FragmentIntroduceYourselfBinding.inflate(inflater, container, false)
         return binding.root
     }
