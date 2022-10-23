@@ -1,6 +1,7 @@
 package com.evdesporapp
 
 import android.os.Bundle
+import android.text.Editable
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -18,6 +19,7 @@ class IntroduceYourselfFragment : Fragment() {
 
     override fun onResume() {
         super.onResume()
+        //Cinsiyet secimi
         val genders = resources.getStringArray(R.array.gender)
         val arrayAdapter = ArrayAdapter(requireContext(), R.layout.dropdown_item, genders)
         binding.autoCompleteTextView.setAdapter(arrayAdapter)
@@ -28,6 +30,7 @@ class IntroduceYourselfFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View {
         _binding = FragmentIntroduceYourselfBinding.inflate(inflater, container, false)
+        Locale.setDefault(Locale("tr", "TR"))
         getDate()
         return binding.root
     }
@@ -65,13 +68,14 @@ class IntroduceYourselfFragment : Fragment() {
                 .setCalendarConstraints(constraints)
                 .build()
 
-        val datePickerButton = binding.datePickerButton
-        datePickerButton.setOnClickListener {
+            binding.dateOfBirthEditText.setOnClickListener {
             datePicker.show(parentFragmentManager, "DATE_PICKER")
+
         }
         datePicker.addOnPositiveButtonClickListener {
-            datePickerButton.text = datePicker.headerText
+            binding.dateOfBirthEditText.setText(datePicker.headerText.toString())
         }
     }
 }
+
 

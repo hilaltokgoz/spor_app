@@ -44,17 +44,27 @@
             android:paddingBottom="16dp"
             android:text="Cinsiyet" />
     </com.google.android.material.textfield.TextInputLayout>
-
-    <Button
-        android:id="@+id/datePickerButton"
-        android:layout_width="wrap_content"
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/dateOfBirthTextInput"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
         android:layout_marginTop="84dp"
-        android:text="Tarihi Göster"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
+        app:startIconDrawable="@drawable/date"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textInputLayout" />
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayout">
 
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/dateOfBirthEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Doğum Tarihi"
+            android:inputType="none"
+            />
 
+    </com.google.android.material.textfield.TextInputLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
