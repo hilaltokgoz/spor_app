@@ -12,5 +12,13 @@
         <item>Kadın</item>
         <item>Erkek</item>
     </string-array>
+
+    
+    <string-array name="theme">
+        <item>System Default</item>
+        <item>Dark</item>
+        <item>Light</item>
+    </string-array>
+
     
 </resources>

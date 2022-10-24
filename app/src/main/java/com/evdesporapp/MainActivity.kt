@@ -35,7 +35,7 @@ class MainActivity : AppCompatActivity() {
             floatingActionButton= fab
             floatingActionButton.setOnClickListener {
                 //showing a toast message when clicked
-              Toast.makeText(this@MainActivity,"Cliscked",Toast.LENGTH_SHORT).show()
+              Toast.makeText(this@MainActivity,"Clicked",Toast.LENGTH_SHORT).show()
             }
 
         }

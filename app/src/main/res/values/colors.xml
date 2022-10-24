@@ -8,39 +8,22 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 
-<!--    palettes-->
-    <color name="very_dark_green"> #131907</color>
-    <color name="dark_green"> #5e7f21</color>
-    <color name="medium_dark_green"> #96ca35</color>
+    <!--    palettes-->
+
+    <color name="very_dark_green">#131907</color>
     <color name="active_green">#bcfd42</color>
     <color name="medium_light_green">#defea1</color>
     <color name="light_green">#ebfec6</color>
     <color name="very_light_green">#f2ffd9</color>
 
-    <color name="dark_gray">#1c1c1c</color>
-    <color name="dark_gray1">#131313</color>
-    <color name="dark_gray2">#090909</color>
-    <color name="dark_gray3">#1a1a1a</color>
-    <color name="gray1">#2b2b2b</color>
-    <color name="gray2">#2f2f2f</color>
-    <color name="gray3">#414141</color>
-    <color name="gray4">#3d3d3d</color>
-    <color name="gray5">#414141</color>
-    <color name="gray6">#6c6c6c</color>
-    <color name="gray7">#adadad</color>
+    <color name="light_black">#131313</color>
+    <color name="gray3">#1a1a1a</color>
+    <color name="dark_gray">#2b2b2b</color>
+    <color name="gray2">#3d3d3d</color>
+    <color name="gray">#adadad</color>
     <color name="active_gray">#d8d8d8</color>
-    <color name="light_gray">#c2c2c2</color>
-    <color name="light_gray1">#e0e0e0</color>
-    <color name="light_gray2">#e8e8e8</color>
-    <color name="light_gray3">#efefef</color>
-    <color name="light_gray4">#f7f7f7</color>
-
-
-
-
-
-
-
-
+    <color name="light_gray">#e0e0e0</color>
+    <color name="dark_white">#efefef</color>
+    <color name="background">#F5F5F5</color>
 
 </resources>

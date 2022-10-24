@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="active_green">#5e7f21</color>
+    <color name="light_green">#defea1</color>
+    <color name="medium_light_green">#96ca35</color>
+    <color name="very_light_green">#ebfec6</color>
+    <color name="very_dark_green">#38471B</color>
+
+    <color name="light_black">#090909</color>
+    <color name="gray3">#1a1a1a</color>
+    <color name="dark_gray">#1c1c1c</color>
+    <color name="gray2">#414141</color>
+    <color name="gray">#6c6c6c</color>
+    <color name="active_gray">#adadad</color>
+    <color name="light_gray">#c2c2c2</color>
+    <color name="dark_white">#e8e8e8</color>
+    <color name="background">#000000</color>
+</resources>

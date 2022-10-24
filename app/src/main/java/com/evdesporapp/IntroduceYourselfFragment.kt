@@ -1,15 +1,18 @@
 package com.evdesporapp
 
+import android.content.res.Configuration
 import android.os.Bundle
-import android.text.Editable
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ArrayAdapter
+import androidx.appcompat.app.AppCompatDelegate
 import androidx.fragment.app.Fragment
+import androidx.lifecycle.lifecycleScope
 import com.evdesporapp.databinding.FragmentIntroduceYourselfBinding
 import com.google.android.material.datepicker.CalendarConstraints
 import com.google.android.material.datepicker.MaterialDatePicker
+import kotlinx.coroutines.launch
 import java.util.*
 
 
@@ -35,13 +38,7 @@ class IntroduceYourselfFragment : Fragment() {
         return binding.root
     }
 
-    override fun onDestroyView() {
-        super.onDestroyView()
-        _binding = null
-    }
-
     private fun getDate() {
-
         //Calendar with Date Limiter
         val calendar = Calendar.getInstance(TimeZone.getTimeZone("UTC"))
         val today = MaterialDatePicker.todayInUtcMilliseconds()
@@ -68,7 +65,7 @@ class IntroduceYourselfFragment : Fragment() {
                 .setCalendarConstraints(constraints)
                 .build()
 
-            binding.dateOfBirthEditText.setOnClickListener {
+        binding.dateOfBirthEditText.setOnClickListener {
             datePicker.show(parentFragmentManager, "DATE_PICKER")
 
         }
@@ -76,6 +73,13 @@ class IntroduceYourselfFragment : Fragment() {
             binding.dateOfBirthEditText.setText(datePicker.headerText.toString())
         }
     }
+    override fun onDestroyView() {
+        super.onDestroyView()
+        _binding = null
+    }
 }
+
+
+
 
 
