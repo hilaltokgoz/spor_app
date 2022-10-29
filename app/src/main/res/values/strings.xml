@@ -7,18 +7,18 @@
     <string name="exercise">Exercise</string>
     <string name="food">Food</string>
     <string name="fab_content_desc">fab_content_desc</string>
-    
+
     <string-array name="gender">
         <item>Kadın</item>
         <item>Erkek</item>
     </string-array>
 
-    
+
     <string-array name="theme">
         <item>System Default</item>
         <item>Dark</item>
         <item>Light</item>
     </string-array>
 
-    
+
 </resources>
