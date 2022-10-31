@@ -23,9 +23,8 @@ class MainActivity : AppCompatActivity() {
     private lateinit var floatingActionButton: FloatingActionButton
 
     override fun onCreate(savedInstanceState: Bundle?) {
-
-
         super.onCreate(savedInstanceState)
+        setTheme(R.style.Theme_Light)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 

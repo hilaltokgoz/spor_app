@@ -141,4 +141,9 @@
         android:name="com.evdesporapp.navigationdrawer.NotificationFragment"
         android:label="fragment_notification"
         tools:layout="@layout/fragment_notification" />
+    <activity
+        android:id="@+id/splashActivity"
+        android:name="com.evdesporapp.SplashActivity"
+        android:label="activity_splash"
+        tools:layout="@layout/activity_splash" />
 </navigation>
