@@ -9,13 +9,15 @@
     tools:context=".IntroduceYourselfFragment">
 
     <EditText
-        android:id="@+id/editTextTextPersonName2"
+        android:id="@+id/heightEditText"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="45dp"
         android:layout_marginTop="@dimen/on_login_component_margin_top"
         android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Name"
+        android:inputType="number"
+        android:drawableStart="@drawable/ic_height"
+        android:hint="Boy"
+        android:background="@drawable/on_login_edit_text_border"
         app:layout_constraintEnd_toStartOf="@+id/textView3"
         app:layout_constraintHorizontal_bias="0.351"
         app:layout_constraintStart_toStartOf="parent"
@@ -47,7 +49,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView4"
-        app:startIconDrawable="@drawable/people">
+        app:startIconDrawable="@drawable/ic_people">
 
         <AutoCompleteTextView
             android:id="@+id/autoCompleteTextView"
@@ -69,7 +71,7 @@
         android:layout_marginTop="@dimen/on_login_component_margin_top"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
-        app:startIconDrawable="@drawable/date"
+        app:startIconDrawable="@drawable/ic_date"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textInputLayout">
 
@@ -123,11 +125,13 @@
     <EditText
         android:id="@+id/editTextTextPersonName"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="45dp"
+        android:background="@drawable/on_login_edit_text_border"
         android:layout_marginTop="@dimen/on_login_component_margin_top"
         android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Name"
+        android:drawableStart="@drawable/ic_weight"
+        android:inputType="numberDecimal|numberSigned"
+        android:hint="Kilo"
         app:layout_constraintEnd_toStartOf="@+id/textView"
         app:layout_constraintHorizontal_bias="0.351"
         app:layout_constraintStart_toStartOf="parent"

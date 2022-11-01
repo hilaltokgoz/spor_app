@@ -10,16 +10,25 @@
         <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/drawable/date.xml" value="0.1615" />
         <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/drawable/exercise.xml" value="0.234" />
         <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/drawable/fit_food.xml" value="0.234" />
+        <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/drawable/height.xml" value="0.2" />
         <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/drawable/home.xml" value="0.234" />
+        <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/drawable/ic_exercise.xml" value="0.2385" />
+        <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/drawable/ic_height.xml" value="0.2385" />
+        <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/drawable/ic_people.xml" value="0.2385" />
+        <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/drawable/ic_weight.xml" value="0.2385" />
         <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/drawable/info.xml" value="0.234" />
         <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/drawable/non_notifications.xml" value="0.234" />
         <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/drawable/notifications_active.xml" value="0.234" />
+        <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/drawable/on_login_edit_text_border.xml" value="0.2" />
         <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/drawable/oval_button.xml" value="0.2" />
+        <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/drawable/people.xml" value="0.2" />
         <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/drawable/plans.xml" value="0.234" />
         <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/drawable/plus.xml" value="0.234" />
         <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/drawable/round_button.xml" value="0.2" />
         <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/drawable/splash_background.xml" value="0.196" />
         <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/drawable/splash_fg.xml" value="0.196" />
+        <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/drawable/square_button.xml" value="0.2385" />
+        <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/drawable/weight.xml" value="0.2" />
         <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/layout/activity_splash.xml" value="0.15670289855072464" />
         <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/layout/dropdown_item.xml" value="0.253125" />
