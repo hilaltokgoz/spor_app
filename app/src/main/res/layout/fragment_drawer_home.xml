@@ -89,7 +89,7 @@
         android:layout_width="24dp"
         android:layout_height="24dp"
         android:layout_marginTop="50dp"
-        android:src="@drawable/empty_glass"
+        android:src="@drawable/ic_water"
         app:layout_constraintEnd_toStartOf="@+id/bmiText"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/bmiImage" />
