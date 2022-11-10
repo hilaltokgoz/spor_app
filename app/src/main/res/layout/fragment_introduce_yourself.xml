@@ -5,34 +5,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/background"
-    tools:context=".IntroduceYourselfFragment">
-
-    <EditText
-        android:id="@+id/heightEditText"
-        android:layout_width="wrap_content"
-        android:layout_height="45dp"
-        android:layout_marginTop="@dimen/on_login_component_margin_top"
-        android:ems="10"
-        android:inputType="number"
-        android:drawableStart="@drawable/ic_height"
-        android:padding="10dp"
-        android:hint=" Boy"
-        android:background="@drawable/on_login_edit_text_border"
-        app:layout_constraintEnd_toStartOf="@+id/textView3"
-        app:layout_constraintHorizontal_bias="0.351"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+    android:background="@color/white"
+    tools:context="IntroduceYourselfFragment">
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/introductionTextView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="@dimen/introduction_margin_top"
         android:gravity="center"
         android:text="Kendini Tanıt"
         android:textColor="@color/dark_gray"
-        android:textSize="24sp"
+        android:textSize="@dimen/text_size"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -44,98 +28,116 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/on_login_margin_start"
-        android:layout_marginEnd="@dimen/on_login_margin_start"
         android:layout_marginTop="@dimen/on_login_component_margin_top"
+        android:layout_marginEnd="@dimen/on_login_margin_start"
         android:hint="Cinsiyet"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:layout_constraintTop_toBottomOf="@+id/introductionTextView"
         app:startIconDrawable="@drawable/ic_people">
-
         <AutoCompleteTextView
             android:id="@+id/autoCompleteTextView"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:inputType="none"
-            android:paddingTop="16dp"
+            android:padding="@dimen/padding"
             android:paddingBottom="16dp"
+            android:textSize="18sp"
             android:text="Cinsiyet" />
     </com.google.android.material.textfield.TextInputLayout>
+
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/dateOfBirthTextInput"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_marginStart="@dimen/on_login_margin_start"
-        android:layout_marginEnd="@dimen/on_login_margin_start"
         android:layout_marginTop="@dimen/on_login_component_margin_top"
+        android:layout_marginEnd="@dimen/on_login_margin_start"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:startIconDrawable="@drawable/ic_date"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textInputLayout">
-
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayout"
+        app:startIconDrawable="@drawable/ic_date">
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/dateOfBirthEditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textSize="18sp"
             android:hint="Doğum Tarihi"
-            android:inputType="none"
-            />
-
+            android:inputType="none" />
     </com.google.android.material.textfield.TextInputLayout>
-
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="100dp"
-        android:background="@drawable/oval_button"
-        android:text="Devam"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/kgTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/on_login_component_margin_top"
         android:layout_marginEnd="@dimen/on_login_component_margin_top"
         android:background="@drawable/square_button"
         android:gravity="center"
+        android:textSize="18sp"
         android:text="KG"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/dateOfBirthTextInput" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/cmTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:gravity="center"
         android:layout_marginTop="@dimen/on_login_component_margin_top"
         android:layout_marginEnd="@dimen/on_login_component_margin_top"
         android:background="@drawable/square_button"
-        android:textStyle="bold"
+        android:gravity="center"
         android:text="CM"
+        android:textSize="18sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/kgTextView" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/weightEditText"
         android:layout_width="wrap_content"
         android:layout_height="45dp"
-        android:background="@drawable/on_login_edit_text_border"
         android:layout_marginTop="@dimen/on_login_component_margin_top"
-        android:ems="10"
+        android:background="@drawable/on_login_edit_text_border"
         android:drawableStart="@drawable/ic_weight"
-        android:padding="10dp"
-        android:inputType="numberDecimal|numberSigned"
+        android:ems="10"
         android:hint=" Kilo"
-        app:layout_constraintEnd_toStartOf="@+id/textView"
+        android:textSize="18sp"
+        android:inputType="numberDecimal|numberSigned"
+        android:padding="10dp"
+        app:layout_constraintEnd_toStartOf="@+id/kgTextView"
         app:layout_constraintHorizontal_bias="0.351"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/dateOfBirthTextInput" />
+
+    <EditText
+        android:id="@+id/heightEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_marginTop="@dimen/on_login_component_margin_top"
+        android:background="@drawable/on_login_edit_text_border"
+        android:drawableStart="@drawable/ic_height"
+        android:ems="10"
+        android:hint=" Boy"
+        android:inputType="number"
+        android:padding="10dp"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toStartOf="@+id/cmTextView"
+        app:layout_constraintHorizontal_bias="0.351"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/weightEditText" />
+
+    <Button
+        android:id="@+id/nextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/introduction_margin_top"
+        android:background="@drawable/oval_button"
+        android:text="Devam"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -14,6 +14,7 @@
         <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/drawable/home.xml" value="0.234" />
         <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/drawable/ic_exercise.xml" value="0.2385" />
         <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/drawable/ic_height.xml" value="0.2385" />
+        <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/drawable/ic_moon.xml" value="0.2385" />
         <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/drawable/ic_people.xml" value="0.2385" />
         <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/drawable/ic_weight.xml" value="0.2385" />
         <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/drawable/info.xml" value="0.234" />
@@ -32,8 +33,10 @@
         <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/layout/activity_splash.xml" value="0.15670289855072464" />
         <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/layout/dropdown_item.xml" value="0.253125" />
+        <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/layout/fragment_bmi.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/layout/fragment_calculate_water.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/layout/fragment_drawer_home.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/layout/fragment_exercise_home.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/layout/fragment_introduce_yourself.xml" value="0.23854166666666668" />
         <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/layout/fragment_splash_screen.xml" value="0.19157608695652173" />
         <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/layout/spinner_right_aligned.xml" value="0.253125" />

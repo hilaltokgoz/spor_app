@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="on_login_component_margin_top">25</dimen>
+    <dimen name="on_login_component_margin_top">25dp</dimen>
     <dimen name="on_login_margin_start">32dp</dimen>
+    <dimen name="introduction_margin_top">100dp</dimen>
+    <dimen name="text_size">24sp</dimen>
+    <dimen name="padding">16dp</dimen>
 </resources>
