@@ -10,12 +10,12 @@ import androidx.navigation.ui.NavigationUI.setupWithNavController
 import com.evdesporapp.databinding.ActivityMainBinding
 import com.evdesporapp.exercises.ExerciseHomeFragment
 import com.evdesporapp.fitrecipe.FitRecipeHomeFragment
+import com.evdesporapp.navigationdrawer.DrawerHomeFragment
 import com.evdesporapp.plans.PlanHomeFragment
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
-    private lateinit var floatingActionButton: FloatingActionButton
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -58,8 +58,9 @@ class MainActivity : AppCompatActivity() {
             }
 
 
-            floatingActionButton = fab
-            floatingActionButton.setOnClickListener {
+            fab.setOnClickListener {
+
+                loadFragment(DrawerHomeFragment())
                 //showing a toast message when clicked
                 Toast.makeText(this@MainActivity, "Clicked", Toast.LENGTH_SHORT).show()
             }
