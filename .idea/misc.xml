@@ -30,18 +30,28 @@
         <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/drawable/splash_fg.xml" value="0.196" />
         <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/drawable/square_button.xml" value="0.2385" />
         <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/drawable/weight.xml" value="0.2" />
-        <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/layout/activity_main.xml" value="0.176" />
         <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/layout/activity_splash.xml" value="0.15670289855072464" />
         <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/layout/dropdown_item.xml" value="0.253125" />
+        <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/layout/fragment_about.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/layout/fragment_alarm.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/layout/fragment_bmi.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/layout/fragment_calculate_water.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/layout/fragment_days_detail.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/layout/fragment_drawer_home.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/layout/fragment_exercise_home.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/layout/fragment_exercise_list.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/layout/fragment_exercise_list_detail.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/layout/fragment_fit_recipe_detail.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/layout/fragment_fit_recipe_home.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/layout/fragment_home.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/layout/fragment_introduce_yourself.xml" value="0.23854166666666668" />
+        <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/layout/fragment_list_of_days_plan.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/layout/fragment_notification.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/layout/fragment_plan_home.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/layout/fragment_rest.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/layout/fragment_splash_screen.xml" value="0.19157608695652173" />
+        <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/layout/fragment_start_exercise.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/layout/spinner_right_aligned.xml" value="0.253125" />
         <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/layout/splash_image_vector.xml" value="0.1983695652173913" />
         <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/menu/bottom_nav_menu.xml" value="0.25416666666666665" />
