@@ -23,11 +23,17 @@ class HomeFragment : Fragment() {
     ): View? {
         _binding = FragmentHomeBinding.inflate(inflater, container, false)
         return binding.root
+
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+        binding.addWaterButton.setOnClickListener {
+            showCustomDialog()
+        }
+    }
 
+    fun showCustomDialog(){
         val builder = AlertDialog.Builder(requireContext(),R.style.CustomAlertDialog)
             .create()
 
@@ -39,8 +45,6 @@ class HomeFragment : Fragment() {
         }
         builder.setCanceledOnTouchOutside(false) //dış ekrana dokunarak iptal etmeyi kapat.
         builder.show()
-
-
 
     }
 

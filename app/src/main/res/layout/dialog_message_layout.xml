@@ -28,26 +28,27 @@
 
         <ImageView
             android:id="@+id/yuzMlImage"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/ic_water"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/yuz_ml_boyut"
+            android:background="@color/blue"
             android:layout_weight="1"
             tools:srcCompat="@tools:sample/avatars" />
 
         <ImageView
             android:id="@+id/ikiYuzMlImage"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
             android:layout_weight="1"
-            android:src="@drawable/ic_water"
+            android:src="@drawable/ikiyuz_ml_boyut"
             tools:srcCompat="@tools:sample/avatars" />
 
         <ImageView
             android:id="@+id/ucYuzMlImage"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
             android:layout_weight="1"
-            android:src="@drawable/ic_water"
+            android:src="@drawable/ucyuz_ml_boyut"
             tools:srcCompat="@tools:sample/avatars" />
     </LinearLayout>
 
@@ -62,26 +63,26 @@
 
         <ImageView
             android:id="@+id/dortYuzMlImage"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
             android:layout_weight="1"
-            android:src="@drawable/ic_water"
+            android:src="@drawable/dortyuz_ml_boyut"
             tools:srcCompat="@tools:sample/avatars" />
 
         <ImageView
             android:id="@+id/besYuzMlImage"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
             android:layout_weight="1"
-            android:src="@drawable/ic_water"
+            android:src="@drawable/besyuz_ml_boyut"
             tools:srcCompat="@tools:sample/avatars" />
 
         <ImageView
             android:id="@+id/binMlImage"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
             android:layout_weight="1"
-            android:src="@drawable/ic_water"
+            android:src="@drawable/bin_ml_boyut"
             tools:srcCompat="@tools:sample/avatars" />
     </LinearLayout>
 
@@ -103,7 +104,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="28dp"
-        android:text="Tamam"
+        android:text="Ekle"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout2" />
 
