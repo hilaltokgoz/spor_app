@@ -8,7 +8,7 @@
         android:id="@+id/waterQuestionText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="10dp"
         android:text="Ne Kadar Su İçtiniz?"
         android:textColor="@color/black"
         android:textSize="24sp"
@@ -30,7 +30,7 @@
             android:id="@+id/yuzMlImage"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-
+            android:src="@drawable/ic_water"
             android:layout_weight="1"
             tools:srcCompat="@tools:sample/avatars" />
 
@@ -39,6 +39,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:src="@drawable/ic_water"
             tools:srcCompat="@tools:sample/avatars" />
 
         <ImageView
@@ -46,6 +47,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:src="@drawable/ic_water"
             tools:srcCompat="@tools:sample/avatars" />
     </LinearLayout>
 
@@ -63,6 +65,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:src="@drawable/ic_water"
             tools:srcCompat="@tools:sample/avatars" />
 
         <ImageView
@@ -70,6 +73,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:src="@drawable/ic_water"
             tools:srcCompat="@tools:sample/avatars" />
 
         <ImageView
@@ -77,6 +81,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:src="@drawable/ic_water"
             tools:srcCompat="@tools:sample/avatars" />
     </LinearLayout>
 
