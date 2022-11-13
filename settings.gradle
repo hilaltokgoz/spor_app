@@ -2,17 +2,23 @@ pluginManagement {
     repositories {
         gradlePluginPortal()
         google()
-        mavenCentral()
         maven { url "https://jitpack.io" }
+       jcenter()
+    //    mavenCentral()
+
     }
 }
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
         google()
-        mavenCentral()
-        maven { url 'https://jitpack.io' }
-        maven { url 'https://oss.sonatype.org/content/groups/public' }
+        maven {
+            url 'https://jitpack.io'
+        }
+        jcenter()
+        //mavenCentral()
+
+      //  maven { url 'https://oss.sonatype.org/content/groups/public' }
     }
 }
 rootProject.name = "EvdeSporApp"
