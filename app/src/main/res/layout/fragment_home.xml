@@ -5,25 +5,48 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".HomeFragment"
+    tools:context=".mainscreen.HomeFragment"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView"
         android:layout_width="match_parent"
         android:layout_height="150dp"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="108dp"
+        android:backgroundTint="@color/dark_white"
         android:elevation="10dp"
         app:cardCornerRadius="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <ImageView
-            android:id="@+id/cardViewImage"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="@drawable/cardview_gradient"
-            android:src="@drawable/ic_water" />
+        <com.marvel999.acr.ArcProgress
+            android:id="@+id/arc_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:ap_background_progressbar_width="20"
+            app:ap_foreground_progressbar_width="20"
+            app:ap_progress="50"
+            app:ap_progress_background_color="@color/active_gray"
+            app:ap_progress_color="@color/blue"
+            />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/addWaterButton"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="right"
+            android:background="@drawable/add_button"
+            android:text="+"
+            android:textSize="25sp" />
+
+        <!-- app:ap_progress_maxscale="100"
+         maxscale =su içim oranı hesap result
+         TODO=" ilk açışta text= lütfen su alım oranını hesaplayınız." -->
+
+
     </androidx.cardview.widget.CardView>
 
     <HorizontalScrollView

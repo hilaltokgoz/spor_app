@@ -1,4 +1,4 @@
-package com.evdesporapp
+package com.evdesporapp.mainscreen
 
 import android.os.Bundle
 import android.view.LayoutInflater

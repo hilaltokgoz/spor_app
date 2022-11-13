@@ -10,9 +10,9 @@ import androidx.navigation.ui.NavigationUI.setupWithNavController
 import com.evdesporapp.databinding.ActivityMainBinding
 import com.evdesporapp.exercises.ExerciseHomeFragment
 import com.evdesporapp.fitrecipe.FitRecipeHomeFragment
+import com.evdesporapp.mainscreen.HomeFragment
 import com.evdesporapp.navigationdrawer.DrawerHomeFragment
 import com.evdesporapp.plans.PlanHomeFragment
-import com.google.android.material.floatingactionbutton.FloatingActionButton
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding

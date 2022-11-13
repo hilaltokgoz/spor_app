@@ -15,4 +15,6 @@
     <color name="light_gray">#c2c2c2</color>
     <color name="dark_white">#e8e8e8</color>
     <color name="background">#000000</color>
+
+    <color name="blue">#6ECEFA</color>
 </resources>

@@ -21,7 +21,7 @@
         tools:layout="@layout/fragment_drawer_home" />
     <fragment
         android:id="@+id/homeFragment"
-        android:name="com.evdesporapp.HomeFragment"
+        android:name="com.evdesporapp.mainscreen.HomeFragment"
         android:label="fragment_home"
         tools:layout="@layout/fragment_home" />
     <navigation
