@@ -51,6 +51,8 @@ dependencies {
     //progressBar
    implementation 'com.github.Marvel999:Arc-Progressbar-lib:1.0.0'
    implementation 'com.github.viethoa:customdialogs:3.0.0'
+   //RecyclerView
+    implementation("androidx.recyclerview:recyclerview:1.2.1")
 
 
 

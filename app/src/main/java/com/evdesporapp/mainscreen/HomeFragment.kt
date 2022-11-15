@@ -6,8 +6,14 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import androidx.recyclerview.widget.GridLayoutManager
+import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
 import com.evdesporapp.R
 import com.evdesporapp.databinding.FragmentHomeBinding
+import com.evdesporapp.model.ItemAdapter
+import com.evdesporapp.model.ItemModel
+import com.evdesporapp.model.MockList
 
 
 class HomeFragment : Fragment() {
@@ -24,7 +30,14 @@ class HomeFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        binding.addWaterButton.setOnClickListener {
+        val recyclerView=binding.recyclerview
+        binding.recyclerview.layoutManager= LinearLayoutManager(requireContext(),LinearLayoutManager.HORIZONTAL,false)
+        val adapter =
+            ItemAdapter(MockList.getMockedItemList() as ArrayList<ItemModel>)
+
+        recyclerView.adapter= adapter
+
+            binding.addWaterButton.setOnClickListener {
             showCustomDialog()
         }
     }
