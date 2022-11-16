@@ -69,7 +69,7 @@ class HomeFragment : Fragment() {
     fun lineChartView() {
 
         val entries: MutableList<Entry> = ArrayList()
-        entries.add(Entry(0f, 4f))
+        entries.add(Entry(0f, 3f))
         entries.add(Entry(1f, 3f))
         entries.add(Entry(2f, 2f))
         entries.add(Entry(3f, 1f))
