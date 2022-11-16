@@ -1,29 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    android:id="@+id/fragment_home"
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_home"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".mainscreen.HomeFragment"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    tools:context=".mainscreen.HomeFragment">
+
     <TextView
         android:id="@+id/appNameText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="20dp"
         android:text="Evde Spor Zamanı"
+        android:textColor="@color/black"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
-         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView"
         android:layout_width="match_parent"
         android:layout_height="150dp"
         android:layout_marginTop="108dp"
-        android:backgroundTint="@color/medium_light_green"
+        android:backgroundTint="@color/light_gray"
         android:elevation="10dp"
         app:cardCornerRadius="10dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -31,9 +33,11 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <FrameLayout android:layout_height="wrap_content"
-             android:layout_width="wrap_content"
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_gravity="center">
+
             <com.marvel999.acr.ArcProgress
                 android:id="@+id/arc_img"
                 android:layout_width="200dp"
@@ -41,21 +45,23 @@
                 app:ap_background_progressbar_width="40"
                 app:ap_foreground_progressbar_width="20"
                 app:ap_progress="50"
-                app:ap_progress_maxscale="100"
-                app:ap_progress_background_color="@color/active_gray"
-                app:ap_progress_color="@color/blue" />
+                app:ap_progress_background_color="@color/gray"
+                app:ap_progress_color="@color/blue"
+                app:ap_progress_maxscale="100" />
+
             <TextView
                 android:id="@+id/drinkingWaterText"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="bottom"
-                android:textColor="@color/black"
                 android:layout_marginStart="40dp"
-                android:text="İçilen su/ maxscale" />
+                android:text="İçilen su/ maxscale"
+                android:textColor="@color/black" />
             <!-- app:ap_progress_maxscale="100"
              maxscale =su içim oranı hesap result
              TODO=" ilk açışta text= lütfen su alım oranını hesaplayınız." -->
         </FrameLayout>
+
         <com.google.android.material.button.MaterialButton
             android:id="@+id/addWaterButton"
             android:layout_width="50dp"
@@ -72,26 +78,69 @@
     <HorizontalScrollView
         android:id="@+id/scrollPartition"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="200dp"
+        android:layout_marginTop="30dp"
         android:scrollbars="none"
-        android:layout_marginTop="50dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/cardView">
 
-
-
-       <androidx.recyclerview.widget.RecyclerView
-           android:id="@+id/recyclerview"
-           android:layout_width="wrap_content"
-           android:layout_height="wrap_content"
-           android:layout_gravity="center"
-           tools:listitem="@layout/item_image_with_text"/>
-
-
-
-
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/bg_gradient"
+            tools:listitem="@layout/item_image_with_text" />
     </HorizontalScrollView>
 
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/lineChart"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/gradient_bacground"
+        android:padding="9dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scrollPartition">
+
+    </com.github.mikephil.charting.charts.LineChart>
+
+    <TextView
+        android:id="@+id/waterTableText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="5dp"
+        android:text="Su Alım Oranım"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/cardView"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/programsText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="5dp"
+        android:text="Prgramlarım"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/scrollPartition"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/acticitiesText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="5dp"
+        android:text="Kalori Harcamalarım"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/lineChart"
+        app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
