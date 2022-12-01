@@ -14,7 +14,7 @@ import com.evdesporapp.R
 //│ 15.11.2022               │
 //└──────────────────────────┘
 
-class ItemAdapter(private val itemList:ArrayList<ItemModel>): RecyclerView.Adapter<ItemListViewHolder>() {
+class ItemAdapter(private val itemList: ArrayList<ItemModel>): RecyclerView.Adapter<ItemListViewHolder>() {
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ItemListViewHolder {
         return ItemListViewHolder(
             LayoutInflater.from(parent.context).inflate(
