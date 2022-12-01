@@ -26,11 +26,12 @@ class PlanHomeFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         val recyclerView = binding.recyclerview
-        binding.recyclerview.layoutManager = LinearLayoutManager(requireContext())
+        binding.recyclerview.layoutManager = LinearLayoutManager(requireContext(),LinearLayoutManager.VERTICAL, false)
       val adapter = PlansAdapter(PlansList.getPlansItemList() as ArrayList<PlanViewModel>)
         recyclerView.adapter = adapter
 
     }
+
 
     override fun onDestroyView() {
         super.onDestroyView()
