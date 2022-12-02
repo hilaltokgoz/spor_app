@@ -35,21 +35,18 @@ class PlansAdapter(private val mList: List<PlanViewModel>) :
         return ViewHolder(view)
     }
 
-    @SuppressLint("Range", "ResourceAsColor")
+
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val ItemsViewModel = mList[position]
         holder.imageView.setImageResource(ItemsViewModel.image)
         holder.textView.text = ItemsViewModel.text
 
-
-        val greenColor = ContextCompat.getColor(holder.plansCardView.context, R.color.active_green)
-        val grayColor = ContextCompat.getColor(holder.plansCardView.context, R.color.active_gray)
-
-        if (position % 2 == 0) {
-            holder.plansCardView.setBackgroundColor(greenColor)
+        if(position %2==0) {
+            holder.plansCardView.setCardBackgroundColor(Color.BLUE)
 
         } else {
-            holder.plansCardView.setCardBackgroundColor(grayColor)
+            holder.plansCardView.setBackgroundColor(Color.parseColor("#bcfd42"))
+          //  holder.plansCardView.setCardBackgroundColor()
 
         }
 
