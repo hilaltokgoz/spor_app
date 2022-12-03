@@ -7,6 +7,15 @@
     android:background="@color/medium_light_green"
     tools:context=".navigationdrawer.DrawerHomeFragment">
 
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:backgroundTint="@color/gray"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:navigationIcon="?attr/homeAsUpIndicator" />
     <TextView
         android:id="@+id/alarmText"
         android:layout_width="match_parent"

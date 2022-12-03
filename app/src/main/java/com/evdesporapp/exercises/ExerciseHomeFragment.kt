@@ -38,7 +38,6 @@ class ExerciseHomeFragment : Fragment() {
 
      //   val position= binding.exercisePartLV[0]
      //   position.setBackgroundColor(Color.parseColor("#bcfd42"))
-
     }
 
     private fun addListViewItem() {
@@ -49,10 +48,9 @@ class ExerciseHomeFragment : Fragment() {
         val arrayAdapter =
             ArrayAdapter(requireContext(), android.R.layout.simple_list_item_1,parts)
         binding.exercisePartLV.adapter = arrayAdapter
-
-
-
     }
+
+
     override fun onDestroyView() {
         super.onDestroyView()
         _binding = null
