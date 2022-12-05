@@ -17,7 +17,7 @@ object MockList {
 
         val itemModel1 = ItemModel(
             "Kas Güçlendirme",
-            R.drawable.muscle,
+            R.drawable.muscle
         )
         val itemModel2 = ItemModel(
             "Zayıflama",

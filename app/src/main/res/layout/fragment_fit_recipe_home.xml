@@ -42,10 +42,10 @@
         app:layout_constraintTop_toBottomOf="@+id/fitTitleCV">
 
         <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/rvFavExercise"
+            android:id="@+id/rvFitRecipe"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            tools:listitem="@layout/cv_fav_exercise" />
+            tools:listitem="@layout/cv_fit_recipe" />
     </LinearLayout>
 
 
