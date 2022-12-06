@@ -20,6 +20,7 @@
         android:id="@+id/alarmText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:onClick="alarm"
         android:layout_marginStart="100dp"
         android:layout_marginTop="100dp"
         android:text="Alarm"

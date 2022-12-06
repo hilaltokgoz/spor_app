@@ -21,11 +21,8 @@ class FitHomeAdapter(private val recipeList: List<FitHomeVM>) :
     RecyclerView.Adapter<FitHomeAdapter.ViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
-        // inflates the card_view_design view
-        // that is used to hold list item
         val view = LayoutInflater.from(parent.context)
             .inflate(R.layout.cv_fit_recipe, parent, false)
-
         return ViewHolder(view)
     }
 

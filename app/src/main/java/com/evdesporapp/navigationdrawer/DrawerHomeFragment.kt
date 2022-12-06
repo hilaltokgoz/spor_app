@@ -7,7 +7,12 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.appcompat.app.AppCompatDelegate
 import androidx.fragment.app.Fragment
+import androidx.navigation.findNavController
+import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.fragment.findNavController
+import androidx.navigation.ui.AppBarConfiguration
+import androidx.navigation.ui.NavigationUI
+import com.evdesporapp.MainActivity
 import com.evdesporapp.R
 import com.evdesporapp.databinding.FragmentDrawerHomeBinding
 
@@ -36,11 +41,12 @@ class DrawerHomeFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        binding.toolbar.setNavigationOnClickListener {
-        //TODO: Back button geri dönüş home fragmenta
-        }
-    }
 
+//        binding.toolbar.setOnClickListener {
+//            findNavController(R.id.nav_host_fragment).navigateUp()
+//        }
+
+    }
 
 
     override fun onDestroyView() {

@@ -34,8 +34,6 @@ class PlansAdapter(private val mList: List<PlanViewModel>) :
             .inflate(R.layout.card_view_plans, parent, false)
         return ViewHolder(view)
     }
-
-
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val ItemsViewModel = mList[position]
         holder.imageView.setImageResource(ItemsViewModel.image)
@@ -43,15 +41,11 @@ class PlansAdapter(private val mList: List<PlanViewModel>) :
 
         if(position %2==0) {
             holder.plansCardView.setCardBackgroundColor(Color.BLUE)
-
         } else {
             holder.plansCardView.setBackgroundColor(Color.parseColor("#bcfd42"))
           //  holder.plansCardView.setCardBackgroundColor()
-
         }
-
     }
-
     override fun getItemCount(): Int {
         return mList.size
     }

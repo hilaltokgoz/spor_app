@@ -5,7 +5,10 @@ import android.view.Menu
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
+import androidx.navigation.findNavController
 import androidx.navigation.fragment.NavHostFragment
+import androidx.navigation.fragment.findNavController
+import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.NavigationUI.setupWithNavController
 import com.evdesporapp.databinding.ActivityMainBinding
 import com.evdesporapp.exercises.ExerciseHomeFragment
@@ -66,9 +69,14 @@ class MainActivity : AppCompatActivity() {
             }
 
         }
+        //TODO:backButton
+//        binding.toolbar.setOnClickListener {
+//            findNavController(R.id.nav_host_fragment).navigateUp()
+//        }
 
 
     }
+
 
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
@@ -83,4 +91,19 @@ class MainActivity : AppCompatActivity() {
         transaction.addToBackStack(null)
         transaction.commit()
     }
-}
+    //TODO:
+//     fun navigate(){
+//
+//          findNavController(R.id.nav_host_fragment).navigate(R.id.action_global_alarmFragment)
+//
+//         findNavController(R.id.nav_host_fragment).navigate(R.id.action_global_aboutFragment)
+//
+//         findNavController(R.id.nav_host_fragment).navigate(R.id.action_global_bmiFragment)
+//
+//         findNavController(R.id.nav_host_fragment).navigate(R.id.action_global_notificationFragment)
+//
+//         findNavController(R.id.nav_host_fragment).navigate(R.id.action_global_calculateWaterFragment)
+//
+//      }
+
+    }

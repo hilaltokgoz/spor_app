@@ -47,7 +47,7 @@
         <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/layout/dialog_message_layout.xml" value="0.253125" />
         <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/layout/dropdown_item.xml" value="0.253125" />
         <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/layout/fragment_about.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/layout/fragment_alarm.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/layout/fragment_alarm.xml" value="0.25" />
         <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/layout/fragment_bmi.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/layout/fragment_calculate_water.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/layout/fragment_days_detail.xml" value="0.25416666666666665" />
@@ -56,7 +56,7 @@
         <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/layout/fragment_exercise_list.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/layout/fragment_exercise_list_detail.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/layout/fragment_fit_recipe_detail.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/layout/fragment_fit_recipe_home.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/layout/fragment_fit_recipe_home.xml" value="0.1" />
         <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/layout/fragment_home.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/layout/fragment_introduce_yourself.xml" value="0.23854166666666668" />
         <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/layout/fragment_list_of_days_plan.xml" value="0.25416666666666665" />
