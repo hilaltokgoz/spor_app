@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        loadFragment(IntroduceYourselfFragment())
+       // loadFragment(IntroduceYourselfFragment())
 
         //navController
         val navHostFragment =
@@ -41,19 +41,19 @@ class MainActivity : AppCompatActivity() {
             bottomNavigation.setOnItemSelectedListener {
                 when (it.itemId) {
                     R.id.home -> {
-                        loadFragment(HomeFragment())
+                        findNavController(R.id.nav_host_fragment).navigate(R.id.homeFragment)
                         return@setOnItemSelectedListener true
                     }
                     R.id.plans -> {
-                        loadFragment(PlanHomeFragment())
+                        findNavController(R.id.nav_host_fragment).navigate(R.id.planHomeFragment2)
                         return@setOnItemSelectedListener true
                     }
                     R.id.exercise -> {
-                        loadFragment(ExerciseHomeFragment())
+                        findNavController(R.id.nav_host_fragment).navigate(R.id.exerciseHomeFragment2)
                         return@setOnItemSelectedListener true
                     }
                     R.id.fitFood -> {
-                        loadFragment(FitRecipeHomeFragment())
+                        findNavController(R.id.nav_host_fragment).navigate(R.id.fitRecipeHomeFragment)
                         return@setOnItemSelectedListener true
                     }
                 }
@@ -62,17 +62,11 @@ class MainActivity : AppCompatActivity() {
 
 
             fab.setOnClickListener {
-
-                loadFragment(DrawerHomeFragment())
-                //showing a toast message when clicked
+                findNavController(R.id.nav_host_fragment).navigate(R.id.action_global_drawerHomeFragment2)
                 Toast.makeText(this@MainActivity, "Clicked", Toast.LENGTH_SHORT).show()
             }
 
         }
-        //TODO:backButton
-//        binding.toolbar.setOnClickListener {
-//            findNavController(R.id.nav_host_fragment).navigateUp()
-//        }
 
 
     }
@@ -85,13 +79,7 @@ class MainActivity : AppCompatActivity() {
         return true
     }
 
-    private fun loadFragment(fragment: Fragment) {
-        val transaction = supportFragmentManager.beginTransaction()
-        transaction.replace(R.id.nav_host_fragment, fragment)
-        transaction.addToBackStack(null)
-        transaction.commit()
-    }
-    //TODO:
+
 //     fun navigate(){
 //
 //          findNavController(R.id.nav_host_fragment).navigate(R.id.action_global_alarmFragment)

@@ -42,10 +42,9 @@ class DrawerHomeFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-//        binding.toolbar.setOnClickListener {
-//            findNavController(R.id.nav_host_fragment).navigateUp()
-//        }
-
+      binding.alarmText.setOnClickListener {
+          it.findNavController().navigate(R.id.action_global_alarmFragment)
+      }
     }
 
 

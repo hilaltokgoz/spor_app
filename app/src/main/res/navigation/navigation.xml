@@ -140,5 +140,5 @@
     <action android:id="@+id/action_global_aboutFragment" app:destination="@id/aboutFragment" />
     <action android:id="@+id/action_global_notificationFragment" app:destination="@id/notificationFragment" />
     <action android:id="@+id/action_global_bmiFragment" app:destination="@id/bmiFragment" />
-    <action android:id="@+id/action_global_calculateWaterFragment" app:destination="@id/calculateWaterFragment" />
+    <action android:id="@+id/action_global_calculateWaterFragment" app:destination="@id/calculateWaterFragment" /><action android:id="@+id/action_global_drawerHomeFragment2" app:destination="@id/drawerHomeFragment2"/>
 </navigation>
