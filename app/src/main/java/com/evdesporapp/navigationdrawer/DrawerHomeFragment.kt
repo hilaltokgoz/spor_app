@@ -45,6 +45,9 @@ class DrawerHomeFragment : Fragment() {
       binding.alarmText.setOnClickListener {
           it.findNavController().navigate(R.id.action_global_alarmFragment)
       }
+        binding.aboutText.setOnClickListener {
+            it.findNavController().navigate(R.id.action_global_aboutFragment)
+        }
     }
 
 
