@@ -30,35 +30,22 @@
         app:layout_constraintEnd_toStartOf="@+id/notificationText"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ListView
+    <LinearLayout
+        android:id="@+id/notificationLL"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:orientation="vertical"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="150dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-       app:layout_constraintTop_toBottomOf="@id/notificationText" >
+        app:layout_constraintTop_toBottomOf="@id/notificationText" >
 
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_notification"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:listitem="@layout/cv_notification_item" />
+    </LinearLayout>
 
-        <TextView
-            android:id="@+id/notificationListItemText"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Hello" />
-
-        <TextView
-            android:id="@+id/clockText"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="9 dk önce" />
-
-        <ImageView
-            android:id="@+id/notitificationWaterOrExercise"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            tools:src="@tools:sample/avatars" />
-
-    </ListView>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
