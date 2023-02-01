@@ -19,6 +19,33 @@ class NotificationFragment : Fragment() {
         return binding.root
     }
 
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+
+        val notification= binding.notificationListItemText
+
+        TODO()
+        //listedeki elemanları random ver, eğer exercise ise exercise iconunu, su ise water iconunu imageView e ata.
+    }
+
+
+
+
+    private fun addListItemWater() {
+        val listWater = mutableListOf(
+            "Hey,su içme zamanı!",
+            "Su içmeyi unutmamalısın.",
+            "Su içme zamanı",
+        )
+    }
+
+    private fun addListItemExercise() {
+        val listExercise= mutableListOf(
+            "Egzersizini kaçırma!",
+            "Egzersiz zamanı"
+        )
+
+    }
 
     override fun onDestroyView() {
         super.onDestroyView()
