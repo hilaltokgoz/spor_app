@@ -14,11 +14,19 @@
     </string-array>
 
 
+
     <string-array name="theme">
         <item>System Default</item>
         <item>Dark</item>
         <item>Light</item>
     </string-array>
 
+    <string-array name="activities_types">
+         <item> "Masa başı iş yapıyorum,fazla hareket etmiyorum" </item>
+        <item> "Az hareket ettiğim bir iş yapıyorum,hafif egzersizler yapıyorum"  </item>
+        <item> "Orta derecede hareket gerektiren bir iş yapıyorum "  </item>
+        <item> "Çok aktif olduğum bir iş yapıyorum, her gün spor yapıyorum "</item>
+        <item> "Aşırı düzeyde spor yapıyorum, müsabakaya hazırlanıyorum"</item>
+    </string-array>
 
 </resources>
