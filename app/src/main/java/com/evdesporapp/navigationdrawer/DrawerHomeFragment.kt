@@ -48,6 +48,15 @@ class DrawerHomeFragment : Fragment() {
         binding.aboutText.setOnClickListener {
             it.findNavController().navigate(R.id.action_global_aboutFragment)
         }
+        binding.notificationText.setOnClickListener {
+            it.findNavController().navigate(R.id.action_global_notificationFragment)
+        }
+        binding.waterDrinkCalculateText.setOnClickListener {
+            it.findNavController().navigate(R.id.action_global_calculateWaterFragment)
+        }
+        binding.bmiText.setOnClickListener {
+            it.findNavController().navigate(R.id.action_global_bmiFragment)
+        }
     }
 
 
