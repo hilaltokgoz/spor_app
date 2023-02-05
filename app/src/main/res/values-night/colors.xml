@@ -17,4 +17,10 @@
     <color name="background">#000000</color>
 
     <color name="blue">#6ECEFA</color>
+    <!--    bmi box color    -->
+    <color name="red">#FB0A0A</color>
+    <color name="green">#8BC34A</color>
+    <color name="yellow">#FBCE46</color>
+    <color name="orange">#FF5722</color>
+
 </resources>

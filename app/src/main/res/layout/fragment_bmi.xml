@@ -164,5 +164,66 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/cardView3" />
 
+    <TextView
+        android:id="@+id/textViewBmiBox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:text=""
+        android:background="@drawable/bmi_box"
+        android:backgroundTint="@color/light_blue"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewBMIResult" />
+
+
+    <TextView
+        android:id="@+id/textViewBmiBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/bmi_box"
+        android:backgroundTint="@color/green"
+        android:text=""
+        app:layout_constraintStart_toEndOf="@+id/textViewBmiBox1"
+        app:layout_constraintTop_toBottomOf="@+id/textViewBMIResult" />
+
+    <TextView
+        android:id="@+id/textViewBmiBox3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/bmi_box"
+        android:backgroundTint="@color/yellow"
+        android:text=""
+        app:layout_constraintStart_toEndOf="@+id/textViewBmiBox2"
+        app:layout_constraintTop_toBottomOf="@+id/textViewBMIResult" />
+
+    <TextView
+        android:id="@+id/textViewBmiBox4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/bmi_box"
+        android:backgroundTint="@color/orange"
+        android:text=""
+        app:layout_constraintStart_toEndOf="@+id/textViewBmiBox3"
+        app:layout_constraintTop_toBottomOf="@+id/textViewBMIResult" />
+
+    <TextView
+        android:id="@+id/textViewBmiBox5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/bmi_box"
+        android:backgroundTint="@color/red"
+        android:text=""
+        app:layout_constraintStart_toEndOf="@+id/textViewBmiBox4"
+        app:layout_constraintTop_toBottomOf="@+id/textViewBMIResult" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
