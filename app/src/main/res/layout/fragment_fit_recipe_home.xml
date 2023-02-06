@@ -47,12 +47,4 @@
             android:layout_height="match_parent"
             tools:listitem="@layout/cv_fit_recipe" />
     </LinearLayout>
-
-
-
-
-
-
-
-
 </androidx.constraintlayout.widget.ConstraintLayout>

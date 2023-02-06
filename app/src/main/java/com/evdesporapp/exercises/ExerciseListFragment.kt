@@ -5,7 +5,10 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import androidx.recyclerview.widget.GridLayoutManager
 import com.evdesporapp.databinding.FragmentExerciseListBinding
+import com.evdesporapp.model.*
+import com.evdesporapp.model.ExerciseList.getExerciseList
 
 
 class ExerciseListFragment : Fragment() {
@@ -21,7 +24,15 @@ class ExerciseListFragment : Fragment() {
         return view
 
     }
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        val recyclerView= binding.rvExerciseDetailList
+        recyclerView.layoutManager= GridLayoutManager(requireContext(),2)
+        val adapter = ExerciseListAdapter(ExerciseList.getExerciseList() as ArrayList<ExerciseListVM>)
+        recyclerView.adapter=adapter
 
+
+    }
     override fun onDestroyView() {
         super.onDestroyView()
         _binding = null
