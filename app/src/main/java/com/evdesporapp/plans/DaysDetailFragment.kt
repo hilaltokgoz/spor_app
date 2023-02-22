@@ -5,10 +5,11 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import com.evdesporapp.base.BaseHideFragment
 import com.evdesporapp.databinding.FragmentDaysDetailBinding
 
 
-class DaysDetailFragment : Fragment() {
+class DaysDetailFragment : Fragment(){
     private var _binding: FragmentDaysDetailBinding? = null
     private val binding get() = _binding!!
 

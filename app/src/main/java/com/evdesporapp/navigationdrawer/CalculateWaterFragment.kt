@@ -9,6 +9,7 @@ import androidx.compose.material.TextFieldDefaults
 import androidx.compose.runtime.Composable
 import androidx.fragment.app.Fragment
 import com.evdesporapp.R
+import com.evdesporapp.base.BaseHideFragment
 import com.evdesporapp.databinding.FragmentCalculateWaterBinding
 import org.w3c.dom.Text
 

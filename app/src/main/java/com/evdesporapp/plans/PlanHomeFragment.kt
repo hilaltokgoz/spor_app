@@ -6,11 +6,12 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.evdesporapp.base.BaseHideFragment
 import com.evdesporapp.databinding.FragmentPlanHomeBinding
 import com.evdesporapp.model.*
 
 
-class PlanHomeFragment : Fragment() {
+class PlanHomeFragment : Fragment(){
     private var _binding: FragmentPlanHomeBinding? = null
     private val binding get() = _binding!!
 

@@ -9,6 +9,7 @@ import android.widget.ArrayAdapter
 import androidx.appcompat.app.AppCompatDelegate
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.lifecycleScope
+import com.evdesporapp.base.BaseHideFragment
 import com.evdesporapp.databinding.FragmentIntroduceYourselfBinding
 import com.google.android.material.datepicker.CalendarConstraints
 import com.google.android.material.datepicker.MaterialDatePicker
@@ -16,7 +17,7 @@ import kotlinx.coroutines.launch
 import java.util.*
 
 
-class IntroduceYourselfFragment : Fragment() {
+class IntroduceYourselfFragment : Fragment(){
     private var _binding: FragmentIntroduceYourselfBinding? = null
     private val binding get() = _binding!!
 

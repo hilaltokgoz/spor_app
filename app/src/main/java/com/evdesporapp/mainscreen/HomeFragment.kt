@@ -9,6 +9,7 @@ import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.evdesporapp.R
+import com.evdesporapp.base.BaseHideFragment
 import com.evdesporapp.databinding.FragmentHomeBinding
 import com.evdesporapp.model.ItemAdapter
 import com.evdesporapp.model.ItemModel

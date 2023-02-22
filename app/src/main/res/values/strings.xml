@@ -14,7 +14,6 @@
     </string-array>
 
 
-
     <string-array name="theme">
         <item>System Default</item>
         <item>Dark</item>
@@ -22,11 +21,27 @@
     </string-array>
 
     <string-array name="activities_types">
-         <item> "Masa başı iş yapıyorum,fazla hareket etmiyorum" </item>
+        <item> "Masa başı iş yapıyorum,fazla hareket etmiyorum" </item>
         <item> "Az hareket ettiğim bir iş yapıyorum,hafif egzersizler yapıyorum"  </item>
         <item> "Orta derecede hareket gerektiren bir iş yapıyorum "  </item>
         <item> "Çok aktif olduğum bir iş yapıyorum, her gün spor yapıyorum "</item>
         <item> "Aşırı düzeyde spor yapıyorum, müsabakaya hazırlanıyorum"</item>
     </string-array>
+
+
+    <string name="btn_persistent">Persistent Bottom Sheet</string>
+    <string name="btn_modal">Modal Bottom Sheet</string>
+    <string name="tv_title">Learn Bottom Sheet</string>
+    <string name="tv_description">
+        Biceps curl, zayıf kolları güçlendirmek ya da fit bir duruş için oldukça faydalıdır.
+        Biceps kası olarak bilinen ön kol kaslarına hacim ve kuvvet kazandırmak için yapılmaktadır.
+      Biceps Curl hareketinin doğru duruş pozisyonunda dirsekler vücusun yanında, gövde düz, sırt dimdik ve
+        kollar tamamen gergin olmalıdır.
+        Uygun ağırlıkta 2’li dambıl seti, hafif ağırlıkta bir bar, plates bandı ya da direnç lastiği gibi spor ekipmanları kullanmanız gerekir.
+    </string>
+    <string name="btn_one">Button 1</string>
+    <string name="btn_two">Button 2</string>
+    <string name="btn_three">Button 3</string>
+
 
 </resources>

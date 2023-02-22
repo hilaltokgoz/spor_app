@@ -6,10 +6,11 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.GridLayoutManager
+import com.evdesporapp.base.BaseHideFragment
 import com.evdesporapp.databinding.FragmentNotificationBinding
 import com.evdesporapp.model.*
 
-class NotificationFragment : Fragment() {
+class NotificationFragment : Fragment(){
     private var _binding: FragmentNotificationBinding? = null
     private val binding get() = _binding!!
 

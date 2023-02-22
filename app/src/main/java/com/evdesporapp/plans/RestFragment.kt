@@ -5,10 +5,11 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import com.evdesporapp.base.BaseHideFragment
 import com.evdesporapp.databinding.FragmentRestBinding
 
 
-class RestFragment : Fragment() {
+class RestFragment : Fragment(){
     private var _binding: FragmentRestBinding? = null
     private val binding get() = _binding!!
     override fun onCreateView(

@@ -14,6 +14,7 @@ import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.NavigationUI
 import com.evdesporapp.MainActivity
 import com.evdesporapp.R
+import com.evdesporapp.base.BaseHideFragment
 import com.evdesporapp.databinding.FragmentDrawerHomeBinding
 
 class DrawerHomeFragment : Fragment() {
