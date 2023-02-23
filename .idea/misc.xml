@@ -14,6 +14,7 @@
         <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/drawable/bmi_box.xml" value="0.233" />
         <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/drawable/bmi_calculate.xml" value="0.234" />
         <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/drawable/cardview_gradient.xml" value="0.2385" />
+        <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/drawable/cv_bottom_sheep.xml" value="0.242" />
         <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/drawable/date.xml" value="0.1615" />
         <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/drawable/diaolog_message_layout.xml" value="0.2385" />
         <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/drawable/exercise.xml" value="0.234" />
@@ -46,8 +47,11 @@
         <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/drawable/weight.xml" value="0.2" />
         <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/layout/activity_main.xml" value="0.176" />
         <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/layout/activity_splash.xml" value="0.15670289855072464" />
+        <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/layout/bottom_sheet.xml" value="0.2463768115942029" />
+        <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/layout/bottom_sheet_dialog.xml" value="0.2463768115942029" />
         <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/layout/card_view_plans.xml" value="0.253125" />
         <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/layout/cardview_gradient.xml" value="0.253125" />
+        <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/layout/cv_bottom_sheet.xml" value="0.2463768115942029" />
         <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/layout/cv_exercise_list_detail.xml" value="0.23052536231884058" />
         <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/layout/cv_fav_exercise.xml" value="0.253125" />
         <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/layout/cv_fit_recipe.xml" value="0.253125" />
@@ -57,13 +61,14 @@
         <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/layout/fragment_about.xml" value="0.1" />
         <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/layout/fragment_alarm.xml" value="0.25" />
         <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/layout/fragment_bmi.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/layout/fragment_bottom_sheet.xml" value="0.2463768115942029" />
         <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/layout/fragment_bottom_sheet_dialog.xml" value="0.1" />
         <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/layout/fragment_calculate_water.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/layout/fragment_days_detail.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/layout/fragment_drawer_home.xml" value="0.1" />
         <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/layout/fragment_exercise_home.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/layout/fragment_exercise_list.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/layout/fragment_exercise_list_detail.xml" value="0.1" />
+        <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/layout/fragment_exercise_list_detail.xml" value="0.128" />
         <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/layout/fragment_fit_recipe_detail.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/layout/fragment_fit_recipe_home.xml" value="0.1" />
         <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/layout/fragment_home.xml" value="0.25416666666666665" />
