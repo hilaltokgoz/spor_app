@@ -12,41 +12,41 @@ import com.evdesporapp.R
 import com.evdesporapp.base.BaseHideFragment
 import com.evdesporapp.databinding.FragmentExerciseListDetailBinding
 import com.google.android.material.bottomsheet.BottomSheetBehavior
+import com.google.android.material.bottomsheet.BottomSheetDialogFragment
 
 
 class ExerciseListDetailFragment : Fragment()  {
     private var _binding:FragmentExerciseListDetailBinding?=null
     private val binding get() = _binding!!
 
-    private val bottomSheetView by lazy { findViewById<ConstraintLayout>(R.id.bottomSheet) }
-    private lateinit var bottomSheetBehavior: BottomSheetBehavior<ConstraintLayout>
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         _binding= FragmentExerciseListDetailBinding.inflate(inflater,container,false)
-        val view=binding.root
 
-        bottomSheetBehavior = BottomSheetBehavior.from(bottomSheetView)
-        setBottomSheetVisibility(false)
-        setStyle(STYLE_NORMAL, R.style.BottomSheetDialog)
-        return view
+
+      //  setStyle(STYLE_NORMAL, R.style.BottomSheetDialog)
+        return binding.root
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
      //bottom sheet
+
+
         binding.button.setOnClickListener {
-            setBottomSheetVisibility(true)
+
+            fragmentManager?.let{
+                BottomSheetFragment.newInstance(bundle = Bundle()).apply {
+                    show(it,"bottomSheet")
+                }
+            }
+
         }
 
     }
-    private fun setBottomSheetVisibility(isVisible: Boolean) {
-        val updatedState = if (isVisible) BottomSheetBehavior.STATE_EXPANDED else BottomSheetBehavior.STATE_COLLAPSED
-        bottomSheetBehavior.state = updatedState
-    }
-
     override fun onDestroyView() {
         super.onDestroyView()
         _binding = null
