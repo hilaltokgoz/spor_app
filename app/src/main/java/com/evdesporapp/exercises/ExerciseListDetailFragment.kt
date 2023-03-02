@@ -26,8 +26,8 @@ class ExerciseListDetailFragment : Fragment()  {
     ): View? {
         _binding= FragmentExerciseListDetailBinding.inflate(inflater,container,false)
 
-
-      //  setStyle(STYLE_NORMAL, R.style.BottomSheetDialog)
+      //setStyle(STYLE_NORMAL, R.style.BottomSheetDialog)
+        context?.theme?.applyStyle(R.style.BottomSheetDialog, true);
         return binding.root
     }
 

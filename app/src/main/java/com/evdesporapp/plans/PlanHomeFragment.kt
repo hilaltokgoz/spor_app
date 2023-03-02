@@ -5,6 +5,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.evdesporapp.base.BaseHideFragment
 import com.evdesporapp.databinding.FragmentPlanHomeBinding
@@ -31,6 +32,13 @@ class PlanHomeFragment : Fragment(){
       val adapter = PlansAdapter(PlansList.getPlansItemList() as ArrayList<PlanViewModel>)
         recyclerView.adapter = adapter
 
+        //Sayfa Yönlendirmesi
+
+        binding.plansTextView.setOnClickListener {
+            val action =
+                PlanHomeFragmentDirections.actionPlanHomeFragment2ToListOfDaysPlanFragment2()
+            findNavController().navigate(action)
+        }
     }
 
 
