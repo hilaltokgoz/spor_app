@@ -24,10 +24,12 @@
         <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/drawable/height.xml" value="0.2" />
         <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/drawable/home.xml" value="0.234" />
         <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/drawable/ic_exercise.xml" value="0.2385" />
+        <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/drawable/ic_fitness.xml" value="0.2165" />
         <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/drawable/ic_height.xml" value="0.2385" />
         <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/drawable/ic_moon.xml" value="0.2385" />
         <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/drawable/ic_people.xml" value="0.2385" />
         <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/drawable/ic_sports_handball_24.xml" value="0.242" />
+        <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/drawable/ic_timer.xml" value="0.2165" />
         <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/drawable/ic_water.xml" value="0.217" />
         <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/drawable/ic_water_blue.xml" value="0.217" />
         <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/drawable/ic_weight.xml" value="0.2385" />
@@ -53,6 +55,7 @@
         <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/layout/card_view_plans.xml" value="0.253125" />
         <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/layout/cardview_gradient.xml" value="0.253125" />
         <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/layout/cv_bottom_sheet.xml" value="0.2463768115942029" />
+        <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/layout/cv_day_detail.xml" value="0.2463768115942029" />
         <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/layout/cv_evercise_plan_list.xml" value="0.2463768115942029" />
         <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/layout/cv_exercise_list_detail.xml" value="0.23052536231884058" />
         <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/layout/cv_fav_exercise.xml" value="0.253125" />
