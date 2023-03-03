@@ -1,6 +1,5 @@
 package com.evdesporapp.navigationdrawer
 
-import android.app.ActionBar
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -8,13 +7,7 @@ import android.view.ViewGroup
 import androidx.appcompat.app.AppCompatDelegate
 import androidx.fragment.app.Fragment
 import androidx.navigation.findNavController
-import androidx.navigation.fragment.NavHostFragment
-import androidx.navigation.fragment.findNavController
-import androidx.navigation.ui.AppBarConfiguration
-import androidx.navigation.ui.NavigationUI
-import com.evdesporapp.MainActivity
 import com.evdesporapp.R
-import com.evdesporapp.base.BaseHideFragment
 import com.evdesporapp.databinding.FragmentDrawerHomeBinding
 
 class DrawerHomeFragment : Fragment() {

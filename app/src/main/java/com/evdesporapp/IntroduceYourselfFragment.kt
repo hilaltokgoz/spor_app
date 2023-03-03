@@ -1,19 +1,14 @@
 package com.evdesporapp
 
-import android.content.res.Configuration
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ArrayAdapter
-import androidx.appcompat.app.AppCompatDelegate
 import androidx.fragment.app.Fragment
-import androidx.lifecycle.lifecycleScope
-import com.evdesporapp.base.BaseHideFragment
 import com.evdesporapp.databinding.FragmentIntroduceYourselfBinding
 import com.google.android.material.datepicker.CalendarConstraints
 import com.google.android.material.datepicker.MaterialDatePicker
-import kotlinx.coroutines.launch
 import java.util.*
 
 

@@ -7,10 +7,8 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.GridLayoutManager
-import com.evdesporapp.base.BaseViewFragment
 import com.evdesporapp.databinding.FragmentExerciseListBinding
 import com.evdesporapp.model.*
-import com.evdesporapp.model.ExerciseList.getExerciseList
 
 
 class ExerciseListFragment :  Fragment() {

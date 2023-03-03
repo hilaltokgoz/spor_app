@@ -8,7 +8,6 @@ import android.widget.ArrayAdapter
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.evdesporapp.base.BaseHideFragment
 import com.evdesporapp.databinding.FragmentExerciseHomeBinding
 import com.evdesporapp.model.FavExerciseAdapter
 import com.evdesporapp.model.FavExerciseList
