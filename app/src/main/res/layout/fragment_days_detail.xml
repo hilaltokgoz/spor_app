@@ -1,39 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/active_gray"
     tools:context=".plans.DaysDetailFragment">
-
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cv_day"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
         android:backgroundTint="@color/active_green"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="20dp"
-       android:layout_marginStart="10dp"
-        android:layout_marginEnd="10dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
-
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical">
-
             <TextView
                 android:id="@+id/tvDaysNumber"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/gray3"
+                android:text="1. Gün"
                 android:textSize="24sp"
-                android:text="1. Gün" />
-
+                android:textStyle="bold" />
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -41,75 +43,74 @@
                 android:layout_marginBottom="5dp"
                 android:gravity="center"
                 android:orientation="horizontal">
-
                 <ImageView
                     android:id="@+id/timeImage"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:background="@drawable/ic_timer"
-                     />
-
+                    android:background="@drawable/ic_timer" />
                 <TextView
                     android:id="@+id/timeTextView"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_marginStart="3dp"
-                    android:textSize="20dp"
-                    android:text="10 Dakika" />
-
+                    android:text="10 Dakika"
+                    android:textSize="20dp" />
                 <ImageView
                     android:id="@+id/exerciseImage"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="30dp"
                     android:layout_gravity="center"
-                    android:background="@drawable/ic_fitness"
-                   />
-
+                    android:layout_marginStart="30dp"
+                    android:background="@drawable/ic_fitness" />
                 <TextView
                     android:id="@+id/numberToExerciseTextView"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_marginStart="3dp"
-                    android:textSize="20dp"
-                    android:text="8 Egzersiz" />
-
+                    android:text="8 Egzersiz"
+                    android:textSize="20dp" />
             </LinearLayout>
-
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 
-
-    <LinearLayout
-        android:id="@+id/ll_plan_days_detail"
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:orientation="vertical"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="100dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/cv_day">
-
-        <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/rv_day_detail"
+        <LinearLayout
+            android:id="@+id/ll_plan_days_detail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            tools:listitem="@layout/cv_day_detail" />
+            android:orientation="vertical">
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_day_detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:listitem="@layout/cv_day_detail" />
+        </LinearLayout>
+    </ScrollView>
 
-    </LinearLayout>
-
-
-
-
-
-
-
-
-
-
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cornerRadius="@dimen/dimen_16"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:padding="10dp"
+        android:backgroundTint="@color/gray2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="BAŞLA"
+        android:layout_marginBottom="100dp"
+        android:textColor="@color/white"
+        android:textSize="@dimen/font_size_24"
+        app:layout_constraintStart_toStartOf="parent" />
 
 
 
