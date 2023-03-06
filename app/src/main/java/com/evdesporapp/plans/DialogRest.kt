@@ -1,4 +1,4 @@
-package com
+package com.evdesporapp.plans
 
 import android.app.Activity
 import android.app.Dialog
