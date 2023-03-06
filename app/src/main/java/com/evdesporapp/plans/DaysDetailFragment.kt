@@ -35,12 +35,11 @@ class DaysDetailFragment : Fragment(){
         PlanDayList.getPlanList()
 
         //Sayfa Yönlendirmesi
-
-//        binding.cvPlanTitle.setOnClickListener {
-//            val action =
-//                ListOfDaysPlanFragmentDirections.actionListOfDaysPlanFragment2ToDaysDetailFragment()
-//            findNavController().navigate(action)
-//        }
+        binding.startsButton.setOnClickListener {
+            val action =
+                DaysDetailFragmentDirections.actionDaysDetailFragmentToStartExerciseFragment()
+            findNavController().navigate(action)
+        }
     }
     override fun onDestroyView() {
         super.onDestroyView()

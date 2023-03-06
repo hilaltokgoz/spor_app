@@ -12,7 +12,7 @@ import com.evdesporapp.R
 //└──────────────────────────┘
 
 object PlanDayList {
-    fun getPlanList(): List<PlanDayListVM> {
+    public fun getPlanList(): List<PlanDayListVM> {
         val exercise1 = PlanDayListVM(
             R.drawable.plank,
             "Plank",

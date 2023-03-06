@@ -8,8 +8,10 @@
         <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/drawable/alarm.xml" value="0.234" />
         <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/drawable/animation_list.xml" value="0.2385" />
         <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/drawable/back.xml" value="0.217" />
+        <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/drawable/bg_button_elips.xml" value="0.2305" />
         <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/drawable/bg_gradient.xml" value="0.2375" />
         <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/drawable/bg_gradyan.xml" value="0.196" />
+        <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/drawable/bg_rounded.xml" value="0.191" />
         <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/drawable/bg_search_view_corner_radius.xml" value="0.2375" />
         <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/drawable/bmi_box.xml" value="0.233" />
         <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/drawable/bmi_calculate.xml" value="0.234" />
@@ -43,6 +45,7 @@
         <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/drawable/plans.xml" value="0.234" />
         <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/drawable/plus.xml" value="0.234" />
         <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/drawable/round_button.xml" value="0.2" />
+        <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/drawable/round_corner.xml" value="0.1" />
         <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/drawable/rounded_corner.xml" value="0.2385" />
         <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/drawable/splash_background.xml" value="0.196" />
         <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/drawable/splash_fg.xml" value="0.196" />
@@ -62,6 +65,7 @@
         <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/layout/cv_fit_recipe.xml" value="0.253125" />
         <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/layout/cv_notification_item.xml" value="0.1793478260869565" />
         <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/layout/dialog_message_layout.xml" value="0.253125" />
+        <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/layout/dialog_rest.xml" value="0.17028985507246377" />
         <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/layout/dropdown_item.xml" value="0.253125" />
         <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/layout/fragment_about.xml" value="0.1" />
         <entry key="..\:/Users/hilal/EvdeSporApp/app/src/main/res/layout/fragment_alarm.xml" value="0.25" />

@@ -97,6 +97,7 @@
     </ScrollView>
 
     <com.google.android.material.button.MaterialButton
+        android:id="@+id/startsButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:cornerRadius="@dimen/dimen_16"

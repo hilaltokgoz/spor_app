@@ -42,6 +42,11 @@
     <string name="btn_one">Button 1</string>
     <string name="btn_two">Button 2</string>
     <string name="btn_three">Button 3</string>
+    <string name="Atlayın" />
+    <string name="atlayın">atlayın</string>
+    <string name="ekle">+10 sn</string>
+    <string name="dinlen">Dinlen</string>
+    <string name="süre">00:30</string>
 
 
 </resources>
