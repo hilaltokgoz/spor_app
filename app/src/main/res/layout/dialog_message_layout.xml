@@ -15,27 +15,49 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
+        android:gravity="center"
         android:layout_marginTop="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/waterQuestionText">
+        <LinearLayout
+            android:id="@+id/ll_yuz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/yuzMlImage"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:padding="5dp"
+                android:src="@drawable/yuz_ml_boyut"
+                android:background="@color/blue"
+                android:layout_weight="1"
+                tools:srcCompat="@tools:sample/avatars" />
+            <TextView
+                android:id="@+id/yuzMlText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="@dimen/dimen_16"
+                android:textColor="@color/black"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:text="100 ml" />
+        </LinearLayout>
 
-        <ImageView
-            android:id="@+id/yuzMlImage"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:padding="5dp"
-            android:src="@drawable/yuz_ml_boyut"
-            android:background="@color/blue"
-            android:layout_weight="1"
-            tools:srcCompat="@tools:sample/avatars" />
-
+    <LinearLayout
+        android:id="@+id/ll_ikiyuz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:orientation="vertical">
         <ImageView
             android:id="@+id/ikiYuzMlImage"
             android:layout_width="100dp"
@@ -44,7 +66,23 @@
             android:layout_weight="1"
             android:src="@drawable/ikiyuz_ml_boyut"
             tools:srcCompat="@tools:sample/avatars" />
-
+        <TextView
+            android:id="@+id/ikiYuzMlText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="@dimen/dimen_16"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:text="200 ml" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ll_ucyuz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:orientation="vertical">
         <ImageView
             android:id="@+id/ucYuzMlImage"
             android:layout_width="100dp"
@@ -53,17 +91,35 @@
             android:padding="5dp"
             android:src="@drawable/ucyuz_ml_boyut"
             tools:srcCompat="@tools:sample/avatars" />
+        <TextView
+            android:id="@+id/ucYuzMlText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="@dimen/dimen_16"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:text="300 ml" />
+    </LinearLayout>
     </LinearLayout>
 
     <LinearLayout
         android:id="@+id/linearLayout2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
         android:orientation="horizontal"
+        android:gravity="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout">
-
+    <LinearLayout
+        android:id="@+id/ll_dortyuz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:orientation="vertical">
         <ImageView
             android:id="@+id/dortYuzMlImage"
             android:layout_width="100dp"
@@ -72,24 +128,69 @@
             android:padding="5dp"
             android:src="@drawable/dortyuz_ml_boyut"
             tools:srcCompat="@tools:sample/avatars" />
-
-        <ImageView
-            android:id="@+id/besYuzMlImage"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
+        <TextView
+            android:id="@+id/dortYuzMlText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:padding="5dp"
-            android:src="@drawable/besyuz_ml_boyut"
-            tools:srcCompat="@tools:sample/avatars" />
+            android:textSize="@dimen/dimen_16"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:text="400 ml" />
+    </LinearLayout>
 
-        <ImageView
-            android:id="@+id/binMlImage"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:layout_weight="1"
-            android:padding="5dp"
-            android:src="@drawable/bin_ml_boyut"
-            tools:srcCompat="@tools:sample/avatars" />
+        <LinearLayout
+            android:id="@+id/ll_besyuz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/besYuzMlImage"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:src="@drawable/besyuz_ml_boyut"
+                tools:srcCompat="@tools:sample/avatars" />
+            <TextView
+                android:id="@+id/besYuzMlText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="@dimen/dimen_16"
+                android:textColor="@color/black"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:text="500 ml" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/bin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/binMlImage"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:src="@drawable/bin_ml_boyut"
+                tools:srcCompat="@tools:sample/avatars" />
+            <TextView
+                android:id="@+id/binMlText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:textSize="@dimen/dimen_16"
+                android:textColor="@color/black"
+                android:layout_gravity="center"
+                android:text="1 litre" />
+        </LinearLayout>
     </LinearLayout>
 
     <Button

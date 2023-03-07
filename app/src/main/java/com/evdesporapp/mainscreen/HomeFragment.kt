@@ -5,8 +5,10 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.TextView
 import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
+import androidx.lifecycle.LifecycleObserver
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.evdesporapp.R
 import com.evdesporapp.databinding.FragmentHomeBinding
@@ -23,7 +25,6 @@ import com.github.mikephil.charting.formatter.IAxisValueFormatter
 class HomeFragment : Fragment() {
     private var _binding: FragmentHomeBinding? = null
     private val binding get() = _binding!!
-
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -62,9 +63,15 @@ class HomeFragment : Fragment() {
 
     fun addWater() {
 
+     var higherFunc:((text:TextView)->String)?=null
+
         TODO("ekle butonuna basınca miktar kadar progress bar çubuğu artacak")
     }
 
+
+    fun exitButton() {
+
+    }
 
     fun lineChartView() {
 
