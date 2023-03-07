@@ -1,13 +1,112 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/light_green"
     tools:context=".fitrecipe.FitRecipeDetailFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+
+    <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
-</FrameLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/recipeTitleText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center"
+            android:text="Kabak köfte"
+            android:textColor="@color/black"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/foodImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/material_margin_start"
+            android:background="@drawable/kabak"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/recipeTitleText" />
+
+        <TextView
+            android:id="@+id/materialText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/material_margin_start"
+            android:layout_marginTop="@dimen/material_margin_start"
+            android:text="Malzemeler"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/foodImage" />
+
+        <TextView
+            android:id="@+id/materialDetailText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/material_margin_start"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="@dimen/material_margin_start"
+            android:text="@tools:sample/lorem/random"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/materialText" />
+
+        <TextView
+            android:id="@+id/cookingText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/material_margin_start"
+            android:layout_marginTop="@dimen/material_margin_start"
+            android:text="Yapılışı"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/materialDetailText" />
+
+        <TextView
+            android:id="@+id/cookingDetailText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/material_margin_start"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="@dimen/material_margin_start"
+            android:text="Lorem Ipsum, dizgi ve baskı endüstrisinde
+             kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen
+             bir matbaacının bir hurufat numune kitabı oluşturmak üzere
+             bir yazı galerisini alarak karıştırdığı 1500'lerden beri
+             endüstri standardı sahte metinler olarak kullanılmıştır.
+             Beşyüz yıl boyunca varlığını sürdürmekle kalmamış, aynı
+             zamanda pek değişmeden elektronik dizgiye de sıçramıştır.
+              1960'larda Lorem Ipsum pasajları da içeren Letraset
+              yapraklarının yayınlanması ile ve yakın zamanda Aldus
+              PageMaker gibi  Lorem Ipsum sürümleri içeren masaüstü
+             yayıncılık yazılımları ile popüler olmuştur. "
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cookingText" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
